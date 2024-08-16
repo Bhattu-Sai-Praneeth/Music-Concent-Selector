@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://wallpapers.com/images/hd/colorful-abstract-background-rra8u4adw1ubypzl.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.music-player {
+    border: 2px solid blue;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+audio {
+    width: 100%;
+    display: block;
+    font-size: 18px;
+}
